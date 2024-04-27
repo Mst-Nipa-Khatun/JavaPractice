@@ -1,0 +1,15 @@
+//Temparature
+import java.util.Scanner;
+
+
+public class TemparatureDemo {
+    public static void main(String[] args) {
+    Scanner input= new Scanner(System.in);
+       double faren,cels;
+        System.out.print("Enter the farenheit = ");
+        faren =input.nextDouble();
+        
+        cels = (faren-32)*5/9;
+        System.out.println("Celsius = "+cels);
+    }
+}
