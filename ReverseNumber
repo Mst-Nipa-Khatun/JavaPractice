@@ -1,0 +1,23 @@
+
+package com.mycompany.datatype;
+
+
+import java.util.Scanner;
+
+public class ReverseSum {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n, reminder, temp, sum = 0;
+        System.out.println("Enter num which you want to reverse:");
+        n = input.nextInt();
+        temp = n;
+        while (temp != 0) {
+            reminder = temp % 10;
+            sum = sum * 10 + reminder;
+            temp = temp / 10;
+        }
+        System.out.println("The reverse number is : " + sum);
+    }
+}
+
