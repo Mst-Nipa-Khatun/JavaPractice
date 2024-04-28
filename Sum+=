@@ -1,0 +1,23 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class TwoInputMul {
+    public static void main(String[] args) {
+       
+        int m, n ,result;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter First Number :");
+        m = input.nextInt();
+        System.out.print("Enter Second Number :");
+        n = input.nextInt();
+         
+         result=  m * n ;
+         System.out.print("Show output:"+result);
+         
+        
+    }
+    
+}
