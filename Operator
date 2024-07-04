@@ -1,0 +1,27 @@
+package com.mycompany.datatype;
+
+import java.util.Scanner;
+
+
+public class Operator {
+     public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        int a,b,c;
+        System.out.println("Enter two numbers: ");
+        a=input.nextInt();
+        b=input.nextInt();
+        c=a+b;
+        System.out.println("c = "+c);
+        c=a-b;
+        System.out.println("c = "+c);
+        c=a*b;
+        System.out.println("c = "+c);
+        double ca=(double) a / b;
+        System.out.println("ca = "+ca);
+        c=a%b;
+        System.out.print("c = "+c);
+    }
+    
+    
+}
