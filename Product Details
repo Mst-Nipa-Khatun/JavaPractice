@@ -1,0 +1,27 @@
+
+package com.mycompany.datatype;
+
+import java.util.Scanner;
+
+public class Assignment3 {
+    public static void main(String[] args) {
+        Scanner input= new Scanner(System.in);
+        
+        int id;
+        String title,price,description,category;
+        
+        System.out.println("Enter ur id:");
+        id= input.nextInt();
+        System.out.println("Enter ur title:");
+        title = input.nextLine();
+        System.out.println("Enter ur price:");
+        price= input.nextLine();
+        System.out.println("Enter description:");
+        description= input.nextLine();
+        System.out.println("Enter category:");
+        category= input.nextLine();  
+       
+ 
+    }
+    
+}
