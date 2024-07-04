@@ -1,0 +1,24 @@
+
+package com.mycompany.datatype;
+
+
+public class Assignment2 {
+    public static void main(String[] args){
+        int id = 101;
+        String title, price, description, category;
+        title = "iPhone15";
+        price = "50 k";
+        description = "Best Product";
+        category = "Phone";
+        
+        System.out.println("Product ID: "+id);
+        System.out.println("Title: "+title);
+        System.out.println("Price: "+price);
+        System.out.println("Description: "+description);
+        System.out.println("Category: "+category);
+        
+    }
+}
+
+    
+
