@@ -1,0 +1,28 @@
+
+package com.mycompany.datatype;
+
+import java.util.Scanner;
+
+
+public class Assignment7 {
+    public static void main(String[] args)
+    {
+        Scanner input=new Scanner(System.in);
+        char ch;
+        System.out.print("Do u love java: ");
+        ch  = input.next().charAt(0);
+       if(ch == 'y' || ch == 'Y')
+       {
+           System.out.print("Yes I love Java");
+       }
+       else if(ch == 'n' || ch == 'N')
+       {
+           System.out.print("I don't Love Java");
+       }
+       else
+       {
+           System.out.print("Invalid Input");
+       }
+    }
+    
+}
