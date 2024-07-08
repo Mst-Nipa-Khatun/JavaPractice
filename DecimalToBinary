@@ -1,0 +1,18 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc19 {
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      int num=5 ;
+    
+          String result=Integer.toBinaryString(num);
+         System.out.println("Binary Convert:"+result); 
+          
+
+    }
+    
+}
