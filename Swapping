@@ -1,0 +1,18 @@
+
+package com.mycompany.selfpractice;
+
+
+public class Exc15 {
+    public static void main(String[] args) {
+   int a, b, temp;
+
+   a = 5;
+   b = 10;
+ 
+   temp = a; //temp=5
+   a = b; //a=10
+   b = temp;  //b=5 from temp 
+   
+   System.out.println("Swap values: a, b = " + a + ", " + b);
+}
+}
