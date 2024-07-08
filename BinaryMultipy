@@ -1,0 +1,26 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc18 {
+     public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      int num1,num2,sum;
+      String x="10";
+      String y="11";
+      
+        num1 = Integer.parseInt(x, 2);
+        
+       num2 = Integer.parseInt(y,2);
+
+          sum= num1*num2;
+          String result=Integer.toBinaryString(sum);
+         System.out.println(""+result); 
+          
+
+    }
+    
+    
+}
