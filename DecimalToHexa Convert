@@ -1,0 +1,19 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc20 {
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      int num=15 ;
+           
+             String result = Integer.toHexString(num);
+
+         System.out.println("Hexa Convert:"+result); 
+          
+
+    }
+    
+}
