@@ -1,0 +1,23 @@
+
+package com.mycompany.selfpractice;
+
+
+public class Exc4 {
+    public static void main(String[] args) {
+        int result ;
+        result = -5 +8 *6 ;
+        System.out.println("a:"+result);
+        
+        result =(55 + 9) % 9;
+        System.out.println("b:"+result);
+        
+        result =20 + -3 * 5 / 8;
+        System.out.println("c:"+result);
+       
+        result =5 + 15 / 3 * 2 - 8 % 3;
+        System.out.println("d:"+result);
+        
+    }
+} 
+    
+
