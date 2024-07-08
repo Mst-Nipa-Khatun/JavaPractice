@@ -1,0 +1,24 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc5 {
+    public static void main(String[] args) {
+       
+        Scanner input = new Scanner(System.in);
+        int num1, num2 ,result;
+
+        System.out.print("Enter First Number :");
+        num1= input.nextInt();
+        System.out.print("Enter Second Number :");
+        num2 = input.nextInt();
+         
+         result=  num1 * num2 ;
+         System.out.print("Output:"+result);
+         
+        
+    }
+    
+}
