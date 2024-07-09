@@ -1,0 +1,18 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc21 {
+     public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+         int num=15 ;
+           
+             String result = Integer.toOctalString(num);
+
+         System.out.println("Octal Convert:"+result); 
+          
+
+    }
+}
