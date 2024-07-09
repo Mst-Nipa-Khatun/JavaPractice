@@ -1,0 +1,20 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc29 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter Hexadecimal Number: ");
+        String hex = scanner.nextLine();
+
+        int decimal = Integer.parseInt(hex, 16);
+
+        String binary = Integer.toBinaryString(decimal);
+
+        System.out.println("Equivalent Binary Number is: " + binary);
+    }
+}
