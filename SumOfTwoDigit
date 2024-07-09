@@ -1,0 +1,23 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc33 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input an integer: ");
+        int a = input.nextInt();
+
+        int sum =0;
+        while (a != 0) { //if a  value not equal to zero
+        
+            sum += a % 10; //a mod 10 then sum 
+            a /= 10; // a value divided into 10
+        }
+        System.out.println("The sum of the digits is: " + sum);
+    }
+    
+}
