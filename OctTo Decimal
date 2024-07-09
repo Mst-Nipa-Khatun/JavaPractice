@@ -1,0 +1,22 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc25 {
+    
+     public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      
+      String x="10" ;
+      
+         int decimal = Integer.parseInt(x, 2);
+          
+        System.out.println(x + " Octal = " + decimal + " decimal.");
+
+        
+          
+
+    }
+}
