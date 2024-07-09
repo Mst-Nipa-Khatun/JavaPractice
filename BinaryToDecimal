@@ -1,0 +1,21 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc22 {
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      
+      String x="100";
+      
+         int decimal = Integer.parseInt(x, 2);
+          
+        System.out.println(x + " binary = " + decimal + " decimal.");
+
+        
+          
+
+    }
+}
