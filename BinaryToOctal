@@ -1,0 +1,17 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc24 {
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      
+      String x="111";
+      
+         int octal = Integer.parseInt(x, 2);
+          
+        System.out.println(x + " binary = " + octal + " octal .");
+}
+}
