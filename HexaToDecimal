@@ -1,0 +1,18 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+
+public class Exc28 {
+  public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Input a hexadecimal number: ");
+        String hex = scanner.nextLine();
+        
+        int decimal = Integer.parseInt(hex, 16);
+        
+        System.out.println("Equivalent decimal number is: " + decimal);
+    } 
+} 
