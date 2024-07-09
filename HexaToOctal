@@ -1,0 +1,19 @@
+
+package com.mycompany.selfpractice;
+
+import java.util.Scanner;
+
+public class Exc30 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter Hexadecimal Number: ");
+        String hex = scanner.nextLine();
+
+        int decimal = Integer.parseInt(hex, 16);
+
+        String octal = Integer.toOctalString(decimal);
+
+        System.out.println("Equivalent Octal Number is: " + octal);
+    }
+}
