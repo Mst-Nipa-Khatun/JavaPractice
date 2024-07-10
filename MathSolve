@@ -1,0 +1,31 @@
+
+package AnisulPractice;
+
+
+public class MathSolve {
+     public static void main(String[] args) {
+        
+        int a=10;
+        int b=20;
+        
+        int max = Math.max(a, b);
+        System.out.println("Maximum = "+max);
+        
+        int min = Math.min(a, b);
+        System.out.println("Minimum = "+min);
+        
+        int absolute = Math.abs( b);
+        System.out.println("absolute = "+absolute);
+        
+        double power = Math.pow(a, b);
+        System.out.println("a to the power b is = "+power);
+        
+        int round=Math.round(8.6f);
+        System.out.println("Round = "+round);
+        
+        double pi=Math.PI;
+        System.out.println("pi="+pi);      
+        
+    } 
+    
+}
