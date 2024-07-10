@@ -1,0 +1,21 @@
+
+package com.mycompany.datatype;
+
+
+public class WhileVsDoWhile {
+    public static void main(String[] args){
+        int i=5;
+        while(i>6){
+            System.out.println("JAVA");
+            i++;
+        }
+        
+        do{
+            System.out.println("C++");
+            i++;
+        }while(i>6);
+    }
+    
+}
+
+  
