@@ -1,0 +1,22 @@
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+      int num1, num2,result;
+   //num1=10;
+   //num2=20;
+   System.out.println("Enter Number: ");
+   num1= input.nextInt();
+   System.out.println("Enter Number: ");
+   num2= input.nextInt();
+   
+  result= num1 + num2;
+  System.out.println("sum: "+result);
+  result= num1 - num2;
+  System.out.println("sub: "+result);
+  result= num1 * num2;
+  System.out.println("mul: "+result);
+  result= num1 / num2;
+  System.out.println("div: "+result);
+  result= num1 % num2;
+  System.out.println("mod: "+result);
+  }
+  }
