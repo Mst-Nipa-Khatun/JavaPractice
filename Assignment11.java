@@ -1,0 +1,23 @@
+
+package com.mycompany.datatype;
+
+
+import java.util.Scanner;
+public class Assignment11 {
+     public static void main(String[] args) {
+   Scanner input = new Scanner(System.in);
+   
+   int n, i, fact=0;
+   System.out.println("enter a number:");
+   n=input.nextInt();
+   
+         
+         for(i=1; i<=n;i++)
+         {
+             fact= n*(n-1);
+             System.out.println( i+  " sum of factorial value:" +fact);
+         }
+   
+ 
+}
+}
