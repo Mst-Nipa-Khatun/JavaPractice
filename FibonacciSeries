@@ -1,0 +1,29 @@
+
+package com.mycompany.datatype;
+
+import java.util.Scanner;
+public class Assignment13 {
+    public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int first = 0, second = 1, n, fibo = 0;
+                int i = 0;
+
+		System.out.println("Enter number:");
+		n = input.nextInt();
+
+		do {
+			System.out.print(fibo+" ");
+
+			first = second;
+			second = fibo;
+			fibo = first + second;
+
+			i++;
+		} while (i < n);
+		
+		System.out.println();
+		System.out.println(n+"th Fibonacci value is :"+second);
+
+	}
+
+}
