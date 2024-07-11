@@ -1,0 +1,20 @@
+
+package com.mycompany.datatype.kibria;
+
+import java.util.Scanner;
+
+public class MultiplicationPb {
+     public static void main(String[] args) {
+       
+        int n ,result;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter First Number :");
+        n = input.nextInt();
+        
+        for (int i = 0; i < 10; i++) {
+        result= (n * (i + 1));
+        System.out.println(n + " x " + (i + 1) + " = " + result);
+        }
+}
+    
+}
