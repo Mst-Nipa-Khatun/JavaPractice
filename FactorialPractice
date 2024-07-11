@@ -1,0 +1,25 @@
+
+package com.mycompany.datatype.kibria;
+
+import java.util.Scanner;
+
+
+public class FactorialPractice {
+    public static void main(String[] args) {
+   Scanner input = new Scanner(System.in);
+   
+   double n, sum=0;
+   System.out.println("enter a number:");
+   n=input.nextDouble();
+   
+   
+   for( double i=1.5;i<=n; i=i+1)
+   {
+              System.out.println(+i );
+       sum=sum+i;
+   }
+   System.out.println(" ");
+   System.out.println("sum of odd values:" +sum);
+}
+}
+
