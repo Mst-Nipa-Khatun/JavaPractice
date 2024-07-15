@@ -1,0 +1,29 @@
+
+package com.mycompany.arraypractice;
+
+
+import java.util.Scanner;
+public class ArrayinDays {
+     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        String[] weeakday={"sun","mon","sat","fri","thur","tue","wed"};
+        System.out.print("Enter a day:)");
+        int m=input.nextInt();
+        
+        for (int i = 0; i <weeakday.length; i++) {
+            if(m==i+1){
+                System.out.println(weeakday[i]);
+                break;
+            }
+            
+        }
+        if(m>weeakday.length){
+            System.out.println("wrong number");
+        }
+    }
+  
+}
+
+    
+
