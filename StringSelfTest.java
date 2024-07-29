@@ -15,6 +15,11 @@ public class StringSelfTest {
         }else{
             System.out.println("have some value");
         }
-    
+    String[] names={"nipa","kib","adda"};
+            for(String x: names)
+            {
+                System.out.println(x);
+            }
     }
+    
 }
