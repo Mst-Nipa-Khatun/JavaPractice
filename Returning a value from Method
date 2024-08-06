@@ -1,0 +1,25 @@
+package OOPConcept;
+
+public class TeacherM1 {
+    
+    int square(int value)
+    {
+        return value*value;
+    }
+   
+    
+     
+
+}
+ //main method
+
+package OOPConcept;
+
+public class MethodCheck {
+
+    public static void main(String[] args) {
+        TeacherM1 obj = new TeacherM1();
+        int result=obj.square(5);
+        System.out.println("square of 5= "+result);
+  }
+}
