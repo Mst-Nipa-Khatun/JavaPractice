@@ -1,0 +1,17 @@
+public class MathDemo {
+    public static void main(String[] args) {
+        System.out.println(Math.abs(-5.7));
+        System.out.println(Math.exp(2.0));
+        System.out.println(Math.PI);
+        System.out.println(Math.ceil(-5.8));
+        System.out.println(Math.floor(-5.7));
+        System.out.println(Math.max(20.8,45.89));
+        System.out.println(Math.log(2));
+        System.out.println(Math.min(23,56));
+        System.out.println(Math.sqrt(625));
+        System.out.println(Math.round(6.8));
+        
+        
+    }
+  
+}
