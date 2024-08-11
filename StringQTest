@@ -1,0 +1,96 @@
+
+package com.mycompany.datatype;
+
+import java.util.Scanner;
+public class QTest {
+  
+public static void main(String[] args) {
+   /* Scanner input = new Scanner(System.in);
+     
+    System.out.println("This person is:");
+     String[] person= new String[3];
+     person[0 ]= input.next();
+     person[1] = input.next();
+     person[2] = input.next();
+     
+     System.out.println(person[0]);
+     System.out.println(person[1]);
+     System.out.println(person[2]);
+     */
+    /* 
+     String person = "Nuha";
+     switch(person){
+         case "Nuha":
+             System.out.println("Girl");
+             break;
+        case "sadia":
+             System.out.println("Girl");
+             break;
+        case "Raihan":
+             System.out.println("boy");
+             break; 
+        default:
+            System.out.println("wrong person");
+        
+
+     }
+    */
+    String[] persons ={"Nuha","Sadia","Raihan","Nehal"};
+    
+    for(String person:persons){
+        switch(person){
+            case "Nuha":
+                System.out.println("Nuha is a girl.");
+                break;
+            case "Sadia":
+                 System.out.println("Sadia is a girl.");
+                break;
+             case "Raihan":
+                 System.out.println("Raihan is a boy.");
+                break;
+             case "Nehal":
+                 System.out.println("Nehal is a boy.");
+                break;
+             default:
+                 System.out.println("Wrong Info.");
+                
+        }
+    }
+    
+    
+    /*Scanner keyboard = new Scanner(System.in);
+     String[] person= {"Nuha", "Sadia","Raihan","Kibria"};
+     
+    int testCase= keyboard.nextInt();
+    switch(testCase){
+        case 1: 
+               System.out.println(person[4]);
+               break;
+        case 2:
+               System.out.println(person[person.length-1]);
+               break;
+        default :   for (String i : person)
+                        System.out.println(i);
+    }
+    
+    */
+    
+   
+    /*String[] songs = {"Tahsan", "Alo","Irsha", "Odrissho Robi","Prematal", "Aalo", "Nei", "Rodela Dupur","Ke Tumi",
+            "Alo","Brittalpona","durotto","Brishtite","Durey","Bhalobashar Maane","Tomay Ghire","Kothopokhoton", "Prottaborton"
+            };
+    int testCase = keyboard.nextInt();
+    switch(testCase){
+        case 1: 
+               System.out.println(songs[16]);
+               break;
+        case 2:
+               System.out.println(songs[songs.length-1]);
+               break;
+        default :   for (String i : songs)
+                        System.out.println(i);
+    }
+  } */
+}
+}
+
