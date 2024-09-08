@@ -15,8 +15,6 @@ public class AddingEelementInArrayPB1 {
             newarr[i] = arr[i];
         }
         newarr[arr.length]=50;
-    
-    //number.addLast(50);
     System.out.println("Array:"+Arrays.toString(newarr));
     
     
